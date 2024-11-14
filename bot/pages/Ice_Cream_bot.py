@@ -72,7 +72,7 @@ def chat(messages, question):
             "content": question
         }
     ],
-    temperature=0.7,
+    temperature=0.7, 
     top_p=0.5
     )
 
